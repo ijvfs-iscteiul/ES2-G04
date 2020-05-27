@@ -1,5 +1,5 @@
 
-public class Teste {
+public class Teste { 
 
 	/**
 	 * Essa aplicação serve meramente para .... não sei....
