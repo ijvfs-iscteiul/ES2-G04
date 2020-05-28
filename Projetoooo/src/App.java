@@ -54,6 +54,14 @@ public class App {
 			return true;
 		return false;
 	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		App app = new App();
+		int valor = app.somar(1, 2);
+	}
 
 
 }
