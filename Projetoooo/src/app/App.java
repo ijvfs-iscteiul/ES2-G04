@@ -12,7 +12,7 @@ public class App {
 
 
 	/**
-	 * Esse método é usado para calcular a soma de dois números
+	 * Esse método é usado para calcular a soma de dois números inteiros
 	 * @param valor1 primeiro parâmetro
 	 * @param valor2 segundo parâmetro
 	 * @return retorna o resultado da soma de valor1 e valor2
@@ -46,6 +46,27 @@ public class App {
 
 
 	/**
+	 * Este método é usado para calcular o quociente entre dois números inteiros ou decimais
+	 * @param valor1 primeiro parâmetro
+	 * @param valor2 segundo parâmetro
+	 * @return retorna a divisão entre o valor1 e valor2
+	 */
+	public double dividir (double valor1, double valor2) {
+		return valor1/valor2;
+	}
+	
+	
+	/**
+	 * Este método é usado para calcular o quadrado de um número inteiro
+	 * @param valor1 primeiro parâmetro
+	 * @return retorna o valor1 ao quadrado
+	 */
+	public int square (int valor1) {
+		return valor1*valor1;
+	}
+	
+	
+	/**
 	 * Esse método é usado para saber se a Irina é linda hehe
 	 * @param nome primeiro argumento
 	 * @return retorna true se o nome dado como argumento for Irina e false caso contrário
@@ -55,6 +76,10 @@ public class App {
 			return true;
 		return false;
 	}
+	
+	
+	
+	
 	
 	
 	
